@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,11 +41,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Zlomek.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ZlomekTest.testEquals.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/danielfrengl/java-uhk",
@@ -63,8 +72,14 @@
       <recent name="$PROJECT_DIR$/PRO1" />
       <recent name="$PROJECT_DIR$/UPROM" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cvic1" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ZlomekTest.testEquals">
     <configuration name="Zlomek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cvic1.Zlomek" />
       <module name="java-uhk" />
@@ -72,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZlomekTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-uhk" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cvic1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cvic1" />
+      <option name="MAIN_CLASS_NAME" value="cvic1.ZlomekTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZlomekTest.testEquals" />
         <item itemvalue="Application.Zlomek" />
       </list>
     </recent_temporary>
@@ -95,7 +127,7 @@
       <updated>1770718998062</updated>
       <workItem from="1770718999362" duration="4113000" />
       <workItem from="1770723551137" duration="7332000" />
-      <workItem from="1771245745706" duration="4157000" />
+      <workItem from="1771245745706" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="feat: PRO1">
       <option name="closed" value="true" />
